@@ -1,0 +1,13 @@
+<div class="movie-card">
+  <a href="/godfather"><img src="{{this.poster}}" alt="poster for {{this.title}}"></a>
+  <div class="movie-details">
+    <h3>{{this.title}} ({{this.year}})</h3>
+    <p>Directed by: {{this.director}}</p>
+    <p>Duration: {{this.duration}}</p>
+    <p>Rating: {{this.rate}}</p>
+    <p>Genre: {{#each this.genre}}
+      <span>{{this}}</span>
+      {{/each}}
+    </p>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+body {
+    font-family: Roboto;
+  }
+  
+  .movies-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie-card {
+    width: 30vw;
+    padding: 15px;
+  }
